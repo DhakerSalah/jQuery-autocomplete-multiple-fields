@@ -1,0 +1,53 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff
+}
+
+.table .thead-light th {
+    color: #ffffff;
+    background-color: #0077ff;
+    border-color: #ffffff;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ffffff;
+}
+
+.table-bordered td, .table-bordered th{
+    background-color: #ececec;
+}
+
+.delete_row img {
+    width: 20px;
+}
+
+.autocomplete_table thead {
+    text-transform: uppercase;
+}
+
+.autocomplete_table .form-control {
+    border-color: #fff;
+}
+
+.serial_no_container {
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #0077ff;
+    border-color: #0077ff;
+}
+
+.ui-widget.ui-widget-content{
+    font-family: inherit;
+}
